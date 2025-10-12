@@ -5,12 +5,6 @@ project_name: probedesk
 env:
   - CGO_ENABLED=1
 
-before:
-  hooks:
-    - rsrc -ico icon.ico -arch amd64 -o dist/build/probedesk_windows_amd64/rsrc_windows_amd64.syso
-    - rsrc -ico icon.ico -arch arm64 -o dist/build/probedesk_windows_arm64/rsrc_windows_arm64.syso
-
-
 builds:
   - id: probedesk
     main: ./main.go
