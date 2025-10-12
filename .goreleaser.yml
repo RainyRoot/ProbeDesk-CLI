@@ -23,7 +23,7 @@ archives:
     format: zip
     name_template: "{{ .ProjectName }}_{{ .Version }}_{{ .Os }}_{{ .Arch }}"
     files:
-      - scripts/install.ps1
+      - install.ps1
 
 release:
   draft: false
