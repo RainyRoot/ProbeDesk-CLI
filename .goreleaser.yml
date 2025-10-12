@@ -16,9 +16,6 @@ builds:
     binary: probedesk
     flags:
       - -trimpath=false
-    hooks:
-      pre:
-        - echo "Ensure rsrc.syso is in the main.go directory" 
 
 archives:
   - id: windows
