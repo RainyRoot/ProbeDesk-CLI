@@ -7,7 +7,8 @@ env:
 
 before:
   hooks:
-    - go-winres make --arch amd64,arm64
+    - rsrc -ico icon.ico -arch amd64 -o rsrc_windows_amd64.syso
+    - rsrc -ico icon.ico -arch arm64 -o rsrc_windows_arm64.syso
 
 builds:
   - id: probedesk
