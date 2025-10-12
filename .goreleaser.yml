@@ -23,11 +23,12 @@ archives:
     format: zip
     name_template: "{{ .ProjectName }}_{{ .Version }}_{{ .Os }}_{{ .Arch }}"
     files:
-      - scripts/install.ps1 
+      - scripts/install.ps1
       - probedesk
+
 release:
+  draft: false
+  prerelease: false
   github:
     owner: RainyRoot
     name: ProbeDesk
-    draft: false
-    prerelease: false
