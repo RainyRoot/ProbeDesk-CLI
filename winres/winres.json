@@ -1,0 +1,7 @@
+{
+  "Manifest": { "ExecutionLevel": "asInvoker", "DpiAwareness": "unaware" },
+  "IconPath": "icon.ico",
+  "FileVersion": { "Major": 1, "Minor": 0, "Patch": 0 },
+  "ProductVersion": { "Major": 1, "Minor": 0, "Patch": 0 },
+  "Info": { "ProductName": "ProbeDesk", "FileDescription": "Test", "CompanyName": "RainyRoot" }
+}

@@ -1,0 +1,2 @@
+Reicht es die exe in System32 zu legen oder muss ps1 script laufen und env anpassen?
+icon? :(

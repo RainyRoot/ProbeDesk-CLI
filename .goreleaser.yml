@@ -5,6 +5,10 @@ project_name: probedesk
 env:
   - CGO_ENABLED=1
 
+before:
+  hooks:
+    - go-winres make --arch amd64,arm64
+
 builds:
   - id: probedesk
     main: ./main.go
