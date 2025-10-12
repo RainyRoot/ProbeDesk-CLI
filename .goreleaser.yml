@@ -7,8 +7,9 @@ env:
 
 before:
   hooks:
-    - rsrc -ico icon.ico -arch amd64 -o rsrc_windows_amd64.syso ./
-    - rsrc -ico icon.ico -arch arm64 -o rsrc_windows_arm64.syso ./
+    - rsrc -ico icon.ico -arch amd64 -o dist/build/probedesk_windows_amd64/rsrc_windows_amd64.syso
+    - rsrc -ico icon.ico -arch arm64 -o dist/build/probedesk_windows_arm64/rsrc_windows_arm64.syso
+
 
 builds:
   - id: probedesk
