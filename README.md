@@ -74,6 +74,15 @@ Move-Item .\probedesk.exe -Destination 'C:\Windows\System32\'
 
 ---
 
+## Related Projects
+
+| Project        | Description |
+|----------------|-------------|
+| ProbeDesk-GUI  | Full Windows GUI version with modular system checks, reporting engine (HTML/MD), and remote execution. |
+| ProbeDesk-CLI  | Command-line version (this repo) with autocomplete, safety checks, and script-friendly output. |
+
+---
+
 ## Usage
 
 Run ProbeDesk from your terminal or PowerShell:
@@ -240,3 +249,4 @@ This project is licensed under the **MIT License** — see `LICENSE` for details
 
 
 ---
+
