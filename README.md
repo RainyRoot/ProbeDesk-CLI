@@ -206,7 +206,7 @@ This adds an autocomplete function to your PowerShell profile so module and flag
 * `--remote` requires PowerShell Remoting (WinRM) and valid credentials on the target.
 * Run your terminal with Administrator privileges when necessary.
 * Combine modules and redirect output for custom logs or reports.
-* Treat report files as sensitive data — secure them appropriately.
+* Treat report files as sensitive data - secure them appropriately.
 
 ---
 
@@ -233,7 +233,7 @@ Contributions, issues, and feature requests are welcome. Please open an issue or
 
 ## License
 
-This project is licensed under the **MIT License** — see `LICENSE` for details.
+This project is licensed under the **MIT License** - see `LICENSE` for details.
 
 ---
 
@@ -249,4 +249,5 @@ This project is licensed under the **MIT License** — see `LICENSE` for details
 
 
 ---
+
 
